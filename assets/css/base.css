@@ -197,12 +197,12 @@ p {
 }
 
 .section {
-    padding: 96px 0;
+    padding: 72px 0;
     position: relative;
 }
 
 @media (max-width: 960px) {
-    .section { padding: 64px 0; }
+    .section { padding: 48px 0; }
 }
 
 /* Selection */

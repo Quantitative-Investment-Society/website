@@ -36,10 +36,10 @@
             </button>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#about">About</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#partners">Partners</a></li>
                 <li><a href="#membership">Membership</a></li>
-                <li><a href="#affiliates">Affiliates</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a class="nav-cta" href="https://forms.gle/seyawqxufKwiweNg8" target="_blank" rel="noopener">Join QIS</a></li>
+                <li><a class="nav-cta" href="#contact">Contact us</a></li>
             </ul>
         </div>
     </header>
@@ -51,15 +51,15 @@
         <div class="hero-chart" id="heroChart" aria-hidden="true"></div>
 
         <div class="container hero-inner">
-            <img class="hero-wordmark" src="assets/images/qis-wordmark-light.svg" alt="Quantitative Investment Society">
+            <h1 class="hero-title">
+                <img class="hero-wordmark" src="assets/images/qis-wordmark-light.svg" alt="Quantitative Investment Society">
+            </h1>
 
             <p class="hero-tagline">The premier quant club at the University of Michigan.</p>
 
             <div class="hero-actions">
-                <a class="btn btn-primary" href="https://forms.gle/seyawqxufKwiweNg8" target="_blank" rel="noopener">
-                    Join QIS <span class="arrow">→</span>
-                </a>
-                <a class="btn btn-ghost" href="#about">Learn more</a>
+                <a class="btn btn-primary" href="#about">Learn more <span class="arrow">→</span></a>
+                <a class="btn btn-ghost" href="#contact">Get in touch</a>
             </div>
         </div>
     </section>
@@ -113,15 +113,61 @@
     </section>
 
     <!-- ============================================================
+         Sponsors
+         ============================================================ -->
+    <section class="section section--alt" id="sponsors">
+        <div class="container">
+            <div class="section-head">
+                <div>
+                    <h2>Sponsors.</h2>
+                </div>
+                <p class="sh-right">The firms supporting QIS this year through recruiting, mentorship, and shared resources.</p>
+            </div>
+
+            <div class="sponsor-grid-wrap">
+                <div class="sponsor-grid sponsor-grid--current">
+                    <div class="sponsor sponsor--current"><img src="assets/images/logos/citadel.png" alt="Citadel"></div>
+                    <div class="sponsor sponsor--current"><img src="assets/images/logos/deshaw-white.png" alt="The D. E. Shaw Group"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         Education partners
+         ============================================================ -->
+    <section class="section" id="partners">
+        <div class="container">
+            <div class="section-head">
+                <div>
+                    <h2>Education partners.</h2>
+                </div>
+                <p class="sh-right">Organizations that help us teach, and give our members a place to compete.</p>
+            </div>
+
+            <div class="partner-feature">
+                <a class="sponsor sponsor--current partner-tile" href="https://tradermath.org" target="_blank" rel="noopener"><img src="assets/images/logos/tradermath-light.webp" alt="Tradermath"></a>
+
+                <div class="partner-copy">
+                    <span class="kicker">Education partner</span>
+                    <h3 class="partner-title">Live trading competitions, coming soon.</h3>
+<p>QIS will host its first live trading competition with Tradermath soon. Everyone plays on the same clock with a live leaderboard, across games like market making, ETF arbitrage, Fermi estimation, and a shared order book where the whole room trades one contract. Some events will be open to all U-M students. Winners of the first competition get Tradermath Premium.</p>
+                    <div class="partner-games mono">Market-making dice · Trading game · ETF arbitrage · Fermi quiz · Trading Pit</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
          Membership
          ============================================================ -->
     <section class="section" id="membership">
         <div class="container">
             <div class="section-head">
                 <div>
-                    <h2>How to join.</h2>
+                    <h2>How membership works.</h2>
                 </div>
-                <p class="sh-right">Everyone starts as a general member. From there, members can apply to become an Associate on one of our project tracks.</p>
+                <p class="sh-right">Everyone starts as a general member. From there, members can apply to become an Associate on one of our project tracks. Recruiting will pick back up in the Winter semester.</p>
             </div>
 
             <div class="membership-grid">
@@ -130,14 +176,14 @@
                         <span class="tier-badge">Step 1 · Open to all</span>
                         <h3 class="tier-name">General Member</h3>
                     </div>
-                    <p class="tier-lede">Start here — everyone joins as a general member by filling out the application below.</p>
+                    <p class="tier-lede">Everyone joins QIS as a general member first.</p>
                     <ul class="tier-list">
                         <li>Speaker sessions with quant firms</li>
                         <li>Technical workshops</li>
                         <li>Access to our Slack and resource library</li>
                     </ul>
                     <div class="tier-foot">
-                        <a class="btn btn-primary" href="https://forms.gle/seyawqxufKwiweNg8" target="_blank" rel="noopener">Application <span class="arrow">→</span></a>
+                        <span class="tier-status mono">Recruiting resumes · Winter semester</span>
                     </div>
                 </div>
 
@@ -146,40 +192,15 @@
                         <span class="tier-badge tier-badge--select">Step 2 · Selective · application + interview</span>
                         <h3 class="tier-name">QR / QT / QDev Associate</h3>
                     </div>
-                    <p class="tier-lede">Once you're a general member, apply and interview to join a cohort on one of three tracks: <strong>Quantitative Research</strong>, <strong>Quantitative Trading</strong>, or <strong>Quantitative Development</strong>.</p>
+                    <p class="tier-lede">General members can apply and interview to join a cohort on one of three tracks: <strong>Quantitative Research</strong>, <strong>Quantitative Trading</strong>, or <strong>Quantitative Development</strong>.</p>
                     <ul class="tier-list">
                         <li>Weekly meetings and education sessions</li>
                         <li>Team projects on your track</li>
                         <li>Enter trading competitions as a team</li>
                     </ul>
                     <div class="tier-foot">
-                        <span class="tier-status mono">Associate application — released soon</span>
+                        <span class="tier-status mono">Recruiting resumes · Winter semester</span>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================================
-         Affiliates
-         ============================================================ -->
-    <section class="section section--alt" id="affiliates">
-        <div class="container">
-            <div class="section-head">
-                <div>
-                    <h2>Affiliates.</h2>
-                </div>
-                <p class="sh-right">Firms that have supported our work through recruiting, mentorship, and shared resources.</p>
-            </div>
-
-            <div class="sponsor-grid-wrap">
-                <div class="sponsor-grid">
-                    <div class="sponsor"><img src="assets/images/logos/janest.png" alt="Jane Street"></div>
-                    <div class="sponsor"><img src="assets/images/logos/optiver.png" alt="Optiver"></div>
-                    <div class="sponsor"><img src="assets/images/logos/citadel.png" alt="Citadel"></div>
-                    <div class="sponsor"><img src="assets/images/logos/sig.png" alt="Susquehanna International Group"></div>
-                    <div class="sponsor"><img src="assets/images/logos/gts.png" alt="Global Trading Systems"></div>
-                    <div class="sponsor"><img src="assets/images/logos/bnp.png" alt="BNP Paribas"></div>
                 </div>
             </div>
         </div>
@@ -194,7 +215,7 @@
                 <div>
                     <h2>Get in touch.</h2>
                 </div>
-                <p class="sh-right">Applications are open for Fall 2026 — apply now, or email us any time with questions.</p>
+                <p class="sh-right">Recruiting is paused until the Winter semester. Email us any time with questions about QIS, sponsorship, or partnerships.</p>
             </div>
 
             <div class="contact-grid">
@@ -202,10 +223,10 @@
                     <div class="recruit-status">
                         <div class="rs-head">
                             <span class="rs-label">Recruitment</span>
-                            <span class="rs-state is-open">Open</span>
+                            <span class="rs-state is-paused">Paused</span>
                         </div>
-                        <p class="rs-body">We're recruiting for <strong>Fall 2026</strong>. Applications are open now — <a href="https://forms.gle/seyawqxufKwiweNg8" target="_blank" rel="noopener">apply here</a>, and come find us at FestiFall. Questions? Feel free to email us anytime.</p>
-                        <div class="rs-foot mono">Now accepting applications · Fall 2026</div>
+                        <p class="rs-body">Recruiting will pick back up in the <strong>Winter semester</strong>. Questions in the meantime? Feel free to email us anytime.</p>
+                        <div class="rs-foot mono">Next recruitment · Winter semester</div>
                     </div>
                     <div class="contact-links">
                         <a class="contact-link" href="mailto:qis.board@umich.edu">
@@ -213,14 +234,9 @@
                             <span class="cl-value">qis.board@umich.edu</span>
                             <span class="cl-arrow">↗</span>
                         </a>
-                        <a class="contact-link" href="https://forms.gle/seyawqxufKwiweNg8" target="_blank" rel="noopener">
-                            <span class="cl-badge">Apply</span>
-                            <span class="cl-value">Application form — open now</span>
-                            <span class="cl-arrow">↗</span>
-                        </a>
                         <div class="contact-link is-static">
-                            <span class="cl-badge">Find us</span>
-                            <span class="cl-value">FestiFall · Sep 2, 3–5 PM · table C-72</span>
+                            <span class="cl-badge">Based in</span>
+                            <span class="cl-value">Ann Arbor, MI · University of Michigan</span>
                             <span class="cl-arrow">—</span>
                         </div>
                     </div>
@@ -229,39 +245,51 @@
                 <div class="agenda-card">
                     <div class="map-head">
                         <span class="mh-loc">◷ Recruiting</span>
-                        <span class="mh-coord mono">Fall 2026</span>
+                        <span class="mh-coord mono">Winter semester</span>
                     </div>
                     <ul class="agenda-list">
                         <li class="agenda-item">
                             <span class="ag-when mono">Now</span>
                             <div class="ag-body">
-                                <div class="ag-title">Applications open</div>
-                                <div class="ag-desc">Fall 2026 applications are open — <a href="https://forms.gle/seyawqxufKwiweNg8" target="_blank" rel="noopener">apply here</a>.</div>
+                                <div class="ag-title">Recruiting paused</div>
+                                <div class="ag-desc">Paused until the Winter semester.</div>
                             </div>
                         </li>
                         <li class="agenda-item">
-                            <span class="ag-when mono">Sep 2</span>
+                            <span class="ag-when mono">Winter</span>
                             <div class="ag-body">
-                                <div class="ag-title">FestiFall · Find our table</div>
-                                <div class="ag-desc">Come say hi — 3:00–5:00 PM, table C-72.</div>
+                                <div class="ag-title">Recruiting resumes</div>
+                                <div class="ag-desc">Details announced at the start of the Winter semester.</div>
                             </div>
                         </li>
                         <li class="agenda-item">
-                            <span class="ag-when mono">TBD</span>
+                            <span class="ag-when mono">Anytime</span>
                             <div class="ag-body">
-                                <div class="ag-title">Mass Meeting</div>
-                                <div class="ag-desc">Time and location announced in the fall.</div>
-                            </div>
-                        </li>
-                        <li class="agenda-item">
-                            <span class="ag-when mono">TBD</span>
-                            <div class="ag-body">
-                                <div class="ag-title">Interviews</div>
-                                <div class="ag-desc">Dates shared with applicants after the Mass Meeting.</div>
+                                <div class="ag-title">Email us</div>
+                                <div class="ag-desc">Questions about QIS, sponsorship, or partnerships — <a href="mailto:qis.board@umich.edu">qis.board@umich.edu</a>.</div>
                             </div>
                         </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         Past sponsors
+         ============================================================ -->
+    <section class="past-sponsors section--alt" id="past-sponsors">
+        <div class="container">
+            <div class="past-head">
+                <span class="kicker">Past sponsors</span>
+                <p>Firms that have supported QIS in previous years.</p>
+            </div>
+            <div class="sponsor-grid sponsor-grid--past">
+                <div class="sponsor sponsor--past"><img src="assets/images/logos/janest.png" alt="Jane Street"></div>
+                <div class="sponsor sponsor--past"><img src="assets/images/logos/optiver.png" alt="Optiver"></div>
+                <div class="sponsor sponsor--past"><img src="assets/images/logos/sig.png" alt="Susquehanna International Group"></div>
+                <div class="sponsor sponsor--past"><img src="assets/images/logos/gts.png" alt="Global Trading Systems"></div>
+                <div class="sponsor sponsor--past"><img src="assets/images/logos/bnp.png" alt="BNP Paribas"></div>
             </div>
         </div>
     </section>
@@ -282,7 +310,8 @@
                     <h4>Navigate</h4>
                     <ul>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#affiliates">Affiliates</a></li>
+                        <li><a href="#sponsors">Sponsors</a></li>
+                        <li><a href="#partners">Partners</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -290,7 +319,7 @@
                     <h4>Connect</h4>
                     <ul>
                         <li><a href="mailto:qis.board@umich.edu">qis.board@umich.edu</a></li>
-                        <li><a href="https://forms.gle/seyawqxufKwiweNg8" target="_blank" rel="noopener">Apply — Fall 2026 applications open</a></li>
+                        <li><span class="footer-muted">Recruiting resumes in the Winter semester</span></li>
                     </ul>
                 </div>
             </div>
